@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top right,#7F7FD5, #91EAE4);
+    height: 100vh;
+}
+
+.container{
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px darkgrey;
+}
+
+.heading{
+    box-shadow: 0px 0px 3px darkgrey;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    background-image: linear-gradient(to top right,#7F7FD5, #91EAE4);
+}
+
+.addlist{
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px darkgrey;
+    margin: 25px;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 85%;
+    height: 25px;
+    border: 0;
+    margin: 3px;
+    margin-left: 5px;
+}
+
+.btn{
+    width: 45px;
+    margin: 3px;
+    background-color: #7F7FD5;
+    border: 0;
+    height: 20px;
+    color: white;
+    border-radius: 12px;
+}
+
+.showlist{
+    padding: 10px;
+    margin: 25px;
+    height: 45vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px darkgrey;
+}
+
+.singlelist{
+    box-shadow: 0px 0px 3px darkgrey;
+    border-radius: 12px;
+    background-color: rgba(0, 255, 0, 0.119);
+    margin: 10px;
+    height: 35px;
+    padding: 5px;
+}
+
+.listitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.dustbin{
+    color: red;
+}
+
+.footer{
+    text-align: center; 
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}

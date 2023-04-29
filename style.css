@@ -84,7 +84,7 @@ body{
 }
 
 .singlelist{
-    background-color: rgba(0, 255, 0, 0.119);
+    background-color: rgba(0, 255, 0, 0.501);
     box-shadow: 0px 0px 3px darkgrey;
     border-radius: 12px;
     margin: 10px;
@@ -97,7 +97,7 @@ body{
 }
 
 .dustbin{
-    color: red;
+    color: white;
     text-decoration: none;
 }
 
